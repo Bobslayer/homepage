@@ -1,52 +1,49 @@
 body {
-    background-color: rgb(16, 20, 25);
-
+  background-color: rgb(16, 20, 25);
 }
 
 .section {
-    background-color: rgb(113, 105, 122);
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
+  background-color: rgb(113, 105, 122);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 
-
 .h1 {
-    color: rgb(0, 0, 0);
-    background-color: rgb(246, 190, 154);
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px; 
-    padding: 30px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(246, 190, 154);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  padding: 30px;
 }
 
 .h2 {
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 .h3 {
-    color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 .p {
-    color: rgb(246, 190, 154);
+  color: rgb(246, 190, 154);
 }
 
-
 nav a {
-    color: red;
+  color: red;
 }
 
 a {
-    color: orange;
+  color: orange;
 }
 
 .test-footer {
-    color:rgba(104, 101, 101, 0.774);
+  color: rgba(104, 101, 101, 0.774);
 }
 
 .avatar {
-    border-radius: 50%;
-  }
+  border-radius: 50%;
+}
