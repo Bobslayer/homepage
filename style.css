@@ -1,49 +1,100 @@
 body {
   background-color: rgb(16, 20, 25);
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .section {
   background-color: rgb(113, 105, 122);
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
+  border-radius: 6px;
 }
 
-.h1 {
+.title-header__title {
   color: rgb(0, 0, 0);
+  border-radius: 6px;
+  padding: 16px;
   background-color: rgb(246, 190, 154);
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
-  padding: 30px;
 }
 
-.h2 {
-  color: rgb(0, 0, 0);
+.introduction {
+  background-color: rgb(113, 105, 122);
+  border-radius: 6px;
+  
 }
-
-.h3 {
-  color: rgb(255, 255, 255);
+.introduction__avatar {
+  border-radius: 50%;
+  margin-left: 15px;
 }
-
-.p {
+.introduction__avatar--welding {
+  border-radius: 10%;
+  
+}
+.introduction__content {
   color: rgb(246, 190, 154);
+  margin-left: 10px;
+}
+.introduction__content--link {
+  color: orange;
+}
+.introduction__title {
+  color: rgb(0, 0, 0);
+  border-top: 10px;
+  border-width: 10px;
+  border-color: hotpink;
+  margin-left: 10px;
+  display:block;
 }
 
-nav a {
+.notes {
+  background-color: rgb(113, 105, 122);
+  border-radius: 6px;
+  
+}
+.notes__title {
+  color: rgb(0, 0, 0);
+  display: block;
+  border-color: hotpink;
+  border: 20px;
+  margin-left: 10px;
+}
+.notes__article{
+  margin-left: 10px;
+}
+.notes__article--title {
+  color: rgb(255, 255, 255);
+  
+}
+
+.notes__article--content {
+  color: rgb(246, 190, 154);
+  
+}
+
+.navigation {
+  background-color: rgba(104, 101, 101, 0.774);
+  padding: 10px;
+  border-radius: 6px;
+}
+.navigation__link {
   color: red;
+  display: inline-block;
+  margin: 5px;
+  font-size: large;
 }
 
-a {
+.footer__link {
   color: orange;
 }
 
-.test-footer {
+.footer {
   color: rgba(104, 101, 101, 0.774);
 }
 
-.avatar {
-  border-radius: 50%;
+.notes__avatar{
+  width: 350px;
+  height: 350px;
+}
+.notes__fovourite-marker {
+  color: rgb(240, 8, 8);
+  font-size: xx-large;
 }

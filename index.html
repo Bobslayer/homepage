@@ -10,37 +10,45 @@
 
   <body>
     <header>
-      <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="nauka-html.html">Nauka HTML</a>
-        <a href="spawanie.html">Spawanie</a>
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html"
+          >Strona główna</a
+        >
+        <a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
+        <a class="navigation__link" href="spawanie.html">Spawanie</a>
       </nav>
     </header>
 
     <main>
-      <header id="top">
-        <h1 class="h1">Piotr Wójcik - Strona domowa</h1>
+      <header class="title-header" id="top">
+        <h1 class="title-header__title">Piotr Wójcik - Strona domowa</h1>
       </header>
 
-      <section class="section">
-        <h2 class="h2">Kim jestem?</h2>
-        <img class="avatar" src="obrazek.jpg" alt="Placeholder image" /><br />
-        <p class="p">
+      <section class="introduction">
+        <h2 class="introduction__title">Kim jestem?</h2>
+        <img
+          class="introduction__avatar"
+          src="obrazek.jpg"
+          alt="Placeholder image"
+        /><br />
+        <p class="introduction__content">
           Moje imie to Piotr, a nazwisko to Wójcik. Mam prawie 29 lat. Jestem
           zaręczony i mam roczną córkę - Basię.<br />
           Jestem operatorem <b>robota spawalniczego</b> w Belgijskiej firmie
-          <a href="https://www.stokota.com/pl/">STOKOTA</a>. W wolnym czasie
-          lubię strzelać się z replik ASG oraz
+          <a
+            class="introduction__content--link"
+            href="https://www.stokota.com/pl/"
+            >STOKOTA</a
+          >. W wolnym czasie lubię strzelać się z replik ASG oraz
           <strong>jeździć na rowerze.</strong>
-          <a href="#notatki">Przejdź do notatek</a>
         </p>
       </section>
 
-      <section id="notatki" class="section">
-        <h2 class="h2">Notatki kurs:</h2>
-        <article>
-          <h3 class="h3">Co robię w pracy?</h3>
-          <p class="p">
+      <section class="notes">
+        <h2 class="notes__title">Notatki kurs:</h2>
+        <article class="notes__article">
+          <h3 class="notes__article--title">Co robię w pracy?</h3>
+          <p class="notes__article--content">
             <em>Potrafię obsługiwać spawarkę MIG/MAG</em> oraz TIG. Nie jestem
             mistrzem spawania, ale w prostych pozycjach spawać potrafię. Polecam
             to każdemu - uczucie zrobienia "czegoś" ze sterty blach jest
@@ -48,9 +56,9 @@
           </p>
         </article>
 
-        <article>
-          <h3 class="h3">Dlaczego tworzę tą stronę?</h3>
-          <p class="p">
+        <article class="notes__article">
+          <h3 class="notes__article--title">Dlaczego tworzę tą stronę?</h3>
+          <p class="notes__article--content">
             Ta strona powstała jako produkt szkolenia WTF: Co ten frontend.
             Szkolę się i potrzebowałem napisać cokolwiek, żebym miał coś do
             obrobienia. Mam nadzieję, że po kursie będę dalej się uczył i w
@@ -58,17 +66,17 @@
           </p>
         </article>
 
-        <article>
-          <h3 class="h3">Czego się nauczyłem</h3>
-          <p class="p">
+        <article class="notes__article">
+          <h3 class="notes__article--title">Czego się nauczyłem</h3>
+          <p class="notes__article--content">
             W sumie to nie nauczyłem się niczego. Odświeżyłem wiedzę, którą
             miałem już w głowie. Cieszę się, że ruszyłem z programowaniem. ;)
           </p>
         </article>
 
-        <article>
-          <h3 class="h3">Feugiat sed lectus vestibulum</h3>
-          <p class="p">
+        <article class="notes__article">
+          <h3 class="notes__article--title">Feugiat sed lectus vestibulum</h3>
+          <p class="notes__article--content">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -79,9 +87,9 @@
           </p>
         </article>
 
-        <article>
-          <h3 class="h3">Cursus mattis molestie</h3>
-          <p class="p">
+        <article class="notes__article">
+          <h3 class="notes__article--title">Cursus mattis molestie</h3>
+          <p class="notes__article--content">
             Vel fringilla est ullamcorper eget nulla facilisi. Sed euismod nisi
             porta lorem mollis aliquam ut porttitor. Consequat ac felis donec et
             odio pellentesque diam volutpat. Turpis massa tincidunt dui ut
@@ -95,9 +103,9 @@
           </p>
         </article>
 
-        <article>
-          <h3 class="h3">SAMUEL L. IPSUM</h3>
-          <p class="p">
+        <article class="notes__article">
+          <h3 class="notes__article--title">SAMUEL L. IPSUM</h3>
+          <p class="notes__article--content">
             Well, the way they make shows is, they make one show. That show's
             called a pilot. Then they show that show to the people who make
             shows, and on the strength of that one show they decide if they're
@@ -109,11 +117,11 @@
       </section>
     </main>
 
-    <footer class="test-footer">
+    <footer class="footer">
       <i>
         Strona domowa Piotra Wójcika, wszystkie treści są efektem tworzenia
         szkolenia WTF: Co ten frontend
-        <a href="#top">Przejdź na górę strony</a></i
+        <a class="footer__link" href="#top">Przejdź na górę strony</a></i
       >
     </footer>
 
