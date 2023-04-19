@@ -98,3 +98,8 @@ body {
   color: rgb(240, 8, 8);
   font-size: xx-large;
 }
+
+body {
+  max-width: 1000px;
+  margin: auto;
+}
