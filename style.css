@@ -33,7 +33,7 @@ body {
   color: rgb(246, 190, 154);
   margin-left: 10px;
 }
-.introduction__content--link {
+.introduction__link {
   color: orange;
 }
 .introduction__title {
@@ -60,12 +60,12 @@ body {
 .notes__article{
   margin-left: 10px;
 }
-.notes__article--title {
+.notes__article-title {
   color: rgb(255, 255, 255);
   
 }
 
-.notes__article--content {
+.notes__content {
   color: rgb(246, 190, 154);
   
 }
