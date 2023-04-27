@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: rgb(16, 20, 25);
   margin-left: 16px;
@@ -19,7 +29,6 @@ body {
 .introduction {
   background-color: rgb(113, 105, 122);
   border-radius: 6px;
-  
 }
 .introduction__avatar {
   border-radius: 50%;
@@ -27,7 +36,6 @@ body {
 }
 .introduction__avatar--welding {
   border-radius: 10%;
-  
 }
 .introduction__content {
   color: rgb(246, 190, 154);
@@ -42,13 +50,12 @@ body {
   border-width: 10px;
   border-color: hotpink;
   margin-left: 10px;
-  display:block;
+  display: block;
 }
 
 .notes {
   background-color: rgb(113, 105, 122);
   border-radius: 6px;
-  
 }
 .notes__title {
   color: rgb(0, 0, 0);
@@ -57,19 +64,29 @@ body {
   border: 20px;
   margin-left: 10px;
 }
-.notes__article{
+.notes__article {
   margin-left: 10px;
+  color: rgb(246, 190, 154);
 }
 .notes__article-title {
   color: rgb(255, 255, 255);
-  
 }
 
-.notes__content {
+.notes_paragraph {
   color: rgb(246, 190, 154);
-  
 }
 
+.list__ol {
+  color: rgb(246, 190, 154);
+  list-style: upper-roman;
+}
+
+.list__ul {
+  color: rgb(246, 190, 154);
+  list-style: square;
+}
+.list__item {
+}
 .navigation {
   background-color: rgba(104, 101, 101, 0.774);
   padding: 10px;
@@ -90,7 +107,7 @@ body {
   color: rgba(104, 101, 101, 0.774);
 }
 
-.notes__avatar{
+.notes__avatar {
   width: 350px;
   height: 350px;
 }
@@ -102,4 +119,24 @@ body {
 body {
   max-width: 1000px;
   margin: auto;
+}
+
+.table {
+  background-color: green;
+  width: 80%;
+  margin: auto;
+  border-radius: 6px;
+}
+.grade__1 {
+  color: red;
+}
+.grade__2 {
+}
+.grade__3 {
+}
+.grade__4 {
+}
+.grade__5 {
+}
+.grade__6 {
 }

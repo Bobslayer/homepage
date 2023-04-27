@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projekt homepage | nauka HTML</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
+   
   </head>
 
   <body>
@@ -39,8 +41,103 @@
 
       <section class="notes">
         <h2 class="notes__title">Tą treść wrzuciłem tu za pomocą JSa:</h2>
-        <article class="notes__article notes__content">
-           <p class="notes_paragraph--js"></p>
+        <article class="notes__article">
+          <p class="notes_paragraph notes_paragraph--js"></p>
+        </article>
+      </section>
+
+      <section class="notes">
+        <h2 class="notes__title">Lista UL</h2>
+        <article class="notes__article">
+          <ul class="list__ul">
+            <li class="list__item">0</li>
+            <li class="list__item">1</li>
+            <li class="list__item">2</li>
+            <li class="list__item">3</li>
+            <li class="list__item">4</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="notes">
+        <h2 class="notes__title">Lista OL</h2>
+        <article class="notes__article">
+          <ol class="list__ol">
+            <li class="list__item">zero</li>
+            <li class="list__item">jeden</li>
+            <li class="list__item">dwa</li>
+            <li class="list__item">trzy</li>
+            <li class="list__item">cztery</li>
+          </ol>
+        </article>
+      </section>
+
+      <section class="notes">
+        <h2 class="notes__title">Tabela</h2>
+        <article class="notes__article">
+          <table class="table">
+            <caption>
+              Dziennik ocen:
+            </caption>
+            <thead>
+              <th>Uczeń</th>
+              <th>Biologia</th>
+              <th>Polski</th>
+              <th>Matematyka</th>
+              <th>Zachowanie</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="grade__1">Ambroziak Adam</td>
+                <td>2</td>
+                <td>3</td>
+                <td class="grade__1">1</td>
+                <td>Znośny</td>
+              </tr>
+              <tr>
+                <td class="grade__1">Bober Bartek</td>
+                <td class="grade__1">1</td>
+                <td class="grade__1">1</td>
+                <td class="grade__1">1</td>
+                <td class="grade__1">Naganny</td>
+              </tr>
+              <tr>
+                <td>Cyc Cyprian</td>
+                <td>5</td>
+                <td>3</td>
+                <td>4</td>
+                <td>hehe</td>
+              </tr>
+              <tr>
+                <td>Dobrowolski Damian</td>
+                <td>4</td>
+                <td>3</td>
+                <td>4</td>
+                <td>Może być</td>
+              </tr>
+              <tr>
+                <td>Exel Edmund</td>
+                <td>3</td>
+                <td>3</td>
+                <td>4</td>
+                <td>OK</td>
+              </tr>
+              <tr>
+                <td>Falkowski Franek</td>
+                <td>4</td>
+                <td>3</td>
+                <td>4</td>
+                <td>OK</td>
+              </tr>
+              <tr>
+                <td>Glinka Gabriela</td>
+                <td>6</td>
+                <td>6</td>
+                <td>6</td>
+                <td>Wzorowy</td>
+              </tr>
+            </tbody>
+          </table>
         </article>
       </section>
     </main>
